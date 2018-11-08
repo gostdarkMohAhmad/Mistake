@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '!'
 1234567891011121314
+123456784564645645
 client.on('message', function(message) {
 	const myID = "495302134045081612"; // ايدي الحساب هنا
 	
