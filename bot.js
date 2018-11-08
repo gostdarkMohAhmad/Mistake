@@ -1,10 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '!'
-1234567891011121314
-123456784564645645
+
 client.on('message', function(message) {
-	const myID = ""; // ايدي الحساب هنا
+	const myID = "437589976117673995"; // ايدي الحساب هنا
 	
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
